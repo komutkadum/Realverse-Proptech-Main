@@ -4,7 +4,7 @@ export default function Home() {
     <>
       {/* <!-- main CTA --> */}
       <section className="">
-        <div className="h-[65vh] md:h-[80vh] bg-[url('/images/bgimg.jpg')] grid place-items-center relative bg-center bg-cover bg-no-repeat px-4">
+        <div className="h-[50vh] rounded-b-3xl overflow-hidden md:h-[80vh] bg-[url('/images/bgimg.jpg')] grid place-items-center relative bg-center bg-cover bg-no-repeat px-4">
           <div className="w-full h-full z-10 absolute bg-gradient-to-r from-black/70 to-black/70 via-transparent  backdrop-blur-[2px] inset-0"></div>
           <div className="z-20 text-light text-center">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 tracking-wide">
@@ -14,7 +14,7 @@ export default function Home() {
               Simplify Your Property Search. Instant Results Guaranteed
             </h3>
             <form className="text-dark px-4 rounded-xl flex items-center bg-white">
-              <div className="pl-2">
+              <div className="pl-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="icon icon-tabler icon-tabler-search"
@@ -35,7 +35,7 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Search for your dream house..."
-                className="w-full p-2 md:p-3 border-0 focus:ring-0"
+                className="w-full p-3 border-0 focus:ring-0"
               />
             </form>
           </div>
