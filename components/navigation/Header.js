@@ -65,7 +65,7 @@ function Header() {
               router.pathname === '/properties/all' && 'underline text-primary'
             }`}
           >
-            <li>Properties</li>
+            <li>Properties is</li>
           </Link>
           <Link
             href="/properties/all/ready-to-move"
