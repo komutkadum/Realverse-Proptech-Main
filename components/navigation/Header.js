@@ -6,12 +6,12 @@ function Header() {
   const router = useRouter();
   return (
     <header className="shadow-md sticky top-0 z-50 bg-white w-full text-dark">
-      <nav className="max-w-6xl mx-auto flex justify-between items-center gap-x-16 py-2.5 px-4 md:px-8">
+      <nav className="max-w-6xl mx-auto flex justify-between items-center gap-x-16 py-3 px-4 md:px-8">
         <div className="flex items-center flex-1 gap-x-4">
           <Link href="/">
             <img
               src="/icon/realverse-icon.png"
-              className="w-12 sm:w-16"
+              className="w-16"
               alt="Realverse Icon"
             />
           </Link>
@@ -35,7 +35,7 @@ function Header() {
             <input
               type="text"
               placeholder="Search your dream house"
-              className="focus:outline-none py-1 w-full rounded-lg border-0 focus:ring-0"
+              className="focus:outline-none py-2 w-full rounded-lg border-0 focus:ring-0"
             />
           </form>
           <div className="block lg:hidden">
