@@ -4,13 +4,13 @@ export default function Home() {
     <>
       {/* <!-- main CTA --> */}
       <section className="">
-        <div className="h-[50vh] rounded-b-3xl overflow-hidden md:h-[80vh] bg-[url('/images/bgimg.jpg')] grid place-items-center relative bg-center bg-cover bg-no-repeat px-4">
-          <div className="w-full h-full z-10 absolute bg-gradient-to-r from-black/70 to-black/70 via-transparent  backdrop-blur-[2px] inset-0"></div>
-          <div className="z-20 text-light text-center">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 tracking-wide">
+        <div className="h-[58vh] rounded-b-3xl overflow-hidden md:h-[80vh] bg-[url('/images/bgimg.jpg')] grid place-items-center relative bg-center bg-cover bg-no-repeat px-4">
+          <div className="w-full h-full z-10 absolute bg-gradient-to-r from-neutral-800/20 to-neutral-800/20 via-transparent  backdrop-blur-[2px] inset-0"></div>
+          <div className="z-20 text-light text-center -mt-14 ">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-2 tracking-wide ">
               Find Your Perfect Home
             </h2>
-            <h3 className="text-xs sm:text-sm lg:text-lg font-light mb-6 tracking-wide text-zinc-200">
+            <h3 className="text-sm lg:text-lg font-light mb-6 tracking-wide text-zinc-100">
               Simplify Your Property Search. Instant Results Guaranteed
             </h3>
             <form className="text-dark px-4 rounded-xl flex items-center bg-white">
