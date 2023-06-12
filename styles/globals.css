@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Inter', sans-serif;
+}
+
+/* linear gradient - show single property */
+.gradient-halfcircle {
+  background: linear-gradient(120deg, #c5e1f2 0, transparent 75%);
 }
 
 /* horizontal scroll snap */
@@ -15,6 +26,7 @@ body {
   scroll-snap-type: x mandatory;
   padding: 0 0 1.5rem;
   -webkit-overflow-scrolling: touch;
+  /* background-color: #2563eb; */
 }
 
 .smol-scroll-snap > * {
@@ -29,6 +41,10 @@ body {
   }
   .dark-custom-link {
     @apply hover:text-dark hover:underline underline-offset-8;
+  }
+  /* button */
+  .dark-gradient-button {
+    @apply bg-gradient-to-r from-primary to-primary-800 text-white;
   }
   /* home page css */
   .various-properties {
@@ -97,5 +113,9 @@ body {
     > .hottest-property-card-top
     > .hottest-property-card-top-save {
     @apply absolute top-2 right-2 shadow-xl;
+  }
+  /* property */
+  .amenities-grid-bg {
+    @apply [&>div:nth-child(6n+1)]:bg-[#fbf2e9] [&>div:nth-child(6n+2)]:bg-[#fbe9f5] [&>div:nth-child(6n+3)]:bg-[#ece9fb] [&>div:nth-child(6n+4)]:bg-[#fbe9f5] [&>div:nth-child(6n+5)]:bg-[#ece9fb] [&>div:nth-child(6n+6)]:bg-[#fbe9f5];
   }
 }
