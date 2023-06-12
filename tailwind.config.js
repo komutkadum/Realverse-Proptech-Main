@@ -24,7 +24,7 @@ module.exports = {
         'md-lg': '860px',
       },
       boxShadow: {
-        round: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+        round: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
       },
       colors: {
         primary: '#2274A5',
