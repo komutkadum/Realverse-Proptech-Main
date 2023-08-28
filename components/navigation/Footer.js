@@ -103,7 +103,7 @@ function Footer() {
             <li>Site Map</li>
           </ul>
           <div className="block lg:hidden text-zinc-300">
-            © realverseproptech.com - All rights reserved
+            ©realverseproptech.com - All rights reserved
           </div>
         </div>
       </div>
