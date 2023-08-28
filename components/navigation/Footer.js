@@ -94,7 +94,7 @@ function Footer() {
         </div>
         <div className="flex flex-col text-xs text-center items-center gap-y-4 lg:flex-row justify-between">
           <div className="hidden lg:block">
-            © newpropertydetails.com - All rights reserved
+            © realverseproptech.com - All rights reserved
           </div>
           <ul className="flex flex-wrap justify-center gap-x-4 whitespace-nowrap">
             <li>Term of Use</li>
