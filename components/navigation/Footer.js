@@ -73,8 +73,8 @@ function Footer() {
             </div>
             <div className="flex justify-center">
               <ul>
-                <li className="mb-2">+914949449499</li>
-                <li>info@newpropertydetails.com</li>
+                <li className="mb-2">+918069428000</li>
+                <li>realverseproptech@gmail.com</li>
               </ul>
             </div>
           </div>
